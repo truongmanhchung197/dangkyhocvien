@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo"></div>
+<button onclick="do_something()">Click me</button>
+<br><button onclick="alert1()"> click me1</button>
+<br> <button onclick="alert2()">click me2</button>
+<br> <button onclick="alert3()"> Click me3</button>
+</body>
+</html>
+<script>
+    function do_something(){
+        console.log("xin chao")
+    }
+    function alert1(){
+        alert("xin chao")
+    }
+    function alert2(){
+        document.getElementById('demo').innerHTML="xin chao"
+    }
+    function alert3(){
+        document.write("xin chao")
+    }
+</script>
